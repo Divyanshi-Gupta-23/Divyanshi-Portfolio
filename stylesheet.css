@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(145, 11, 197, 0.705);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+.left{
+    font-size: 30px;
+}
+.firstSection{
+    display: flex;
+    margin: 30px 0;
+    margin-top: 50px;
+}
+.firstSection > div{
+    width: 50%;
+}
+.leftSection{
+    margin-left: 12%;
+    margin-top:65px;
+    font-size:50px;
+}
+.leftSection .btn{
+    padding: 10px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    border-radius: 10px;
+}
+.rightSection img{
+    margin-left: 16%;
+    width: 45%;
+}
+.purple{
+    color:rgb(192, 145, 27)
+}
+#element{
+    color:rgb(182, 41, 187);
+}
+.secondSection{
+    max-width: 80vw;
+    margin-top: 13px;
+    margin-left: 8%;
+    height: 330px;
+}
+main hr{
+    border: 0;
+    background: #9c9762;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.text-grey{
+    color: gray;
+    font-size: 1rem;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection .box{
+    background: white;
+    width: 101%;
+    height: 2px;
+    margin: 59px;
+    display: flex;
+    margin-left: 12px;
+    margin-top: 88px;
+}
+.secondSection .vertical{
+    height: 45px;
+    width: 1px;
+    background-color: white;
+    margin: 0 91px;
+}
+.image-top1{
+    width: 68px;
+    position: relative;
+    top: -46px;
+    left: -32px;
+}
+.image-top2{
+    width: 67px;
+    position: relative;
+    top: -46px;
+    left: -35px;
+}
+.image-top3{
+    width: 48px;
+    position: relative;
+    top: -60px;
+    left: -22px;
+}
+.image-top4{
+    width: 48px;
+    position: relative;
+    top: -46px;
+    left: -25px;
+}
+.image-top5{
+    width: 48px;
+    position: relative;
+    top: -52px;
+    left: -24px;
+}
+.secondSection  .vertical-title{
+    position: relative;
+    top: 22px;
+    width: 150px;
+    left: -51px;
+}
+.secondSection .vertical-description{
+    position: relative;
+    top: 33px;
+    left: -51px;
+    color: gray;
+    width: 154px;
+    font-size: 12px;
+}
+footer{
+    background-color: #05030d;
+    height: 233px;
+
+}
+.footer{
+    display: flex;
+    padding: 28px 122px;
+    justify-content: space-around;
+    margin-top: 17px; 
+    
+}
+.footer-first{
+    width: 288px;
+    color: #bfbfce;
+    margin: 14px 50px;
+    font-size: 23px;
+}
+.footer ul{
+    list-style: none;
+    margin: 17px;
+}
+.footer ul li{
+    height: 29px;
+}
+.footer ul li a{
+    margin: 14px;
+    font-size: 18px;
+    
+    color: grey;
+    text-decoration-line: none;
+}
+footer .footer-rights{
+    color:gray;
+    text-align: center;
+}
+.resume-icon {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin: 22px 10px;
+}

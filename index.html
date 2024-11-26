@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Divyanshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <br><span class="purple">Divyanshi Gupta</span>
+                <br>
+                I am a passionate
+                <br>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <a href="DivyanshiGuptaResumeEr.pdf" download>
+                        <button class="btn">Download Resume</button>
+                    </a>                
+                    <button onclick="window.location.href='https://github.com/Divyanshi-Gupta-23';" class="btn">GitHub</button>
+                    <button onclick="window.location.href='https://www.linkedin.com/in/divyanshi-gupta-a0b316258';" class="btn">Linkedin</button>
+
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="personal_image.jpeg" >
+            </div>
+            
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class=" image-top1" src="css.PNG" alt="logo">
+                    <div class="vertical-title" style="top:2px">
+                        JAVA Language
+                    </div>
+                    <div class="vertical-description" style="top:8px">
+                        I have learned and practice java programing language from my childhood and have completed 250+ problems on Leetcode.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=" image-top1" src="css.PNG" alt="logo">
+                    <div class="vertical-title" style="top:2px">
+                        HTML, CSS Project
+                    </div>
+                    <div class="vertical-description" style="top:8px">
+                        Learned and practice by building many website using html, css amongs them is GYM website.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=" image-top2" src="html.png" alt="logo">
+                    <div class="vertical-title" style="top:1px">
+                        Frontend Project
+                    </div>
+                    <div class="vertical-description" style="top:7px">
+                        Learned and practice by building many website using html, css, javascript amongs them is Portfolio website.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=" image-top3" src="full.png" alt="logo">
+                    <div class="vertical-title" style="top:-14px">
+                        FullStack Project
+                    </div>
+                    <div class="vertical-description" style="top:-8px">
+                        Learned and practice by building website using FullStack amongs them is PGLife website.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=" image-top4" src="re.PNG" alt="logo">
+                    <div class="vertical-title" style="top:2px">
+                        React Project
+                    </div>
+                    <div class="vertical-description" style="top:8px">
+                        Learned and practice by building website using react amongs them is Resturant website.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class=" image-top5" src="mern.PNG" alt="logo">
+                    <div class="vertical-title" style="top:-3px">
+                        MERN Project
+                    </div>
+                    <div class="vertical-description" style="top:3px">
+                        Still learning and building website using mern stack which is still building is Misarticulation Therapy website.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Divyanshi Developer's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="/">Resume</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.divyanshisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['FullStack Developer', 'Web Developer', 'Frontend Developer', 'Java Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
